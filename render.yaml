@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: malayalam-serials-addon
+    runtime: docker
+    plan: free
+    region: oregon
+    envVars:
+      - key: PORT
+        value: 7000
+      - key: TG_SESSION_STRING
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
