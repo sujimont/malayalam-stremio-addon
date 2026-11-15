@@ -1,0 +1,9 @@
+*.session
+*.session-journal
+*.part
+__pycache__/
+*.pyc
+.env
+stremio_tg_cache/
+.DS_Store
+Thumbs.db
